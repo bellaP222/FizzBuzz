@@ -13,7 +13,7 @@ class FizzBuzz {
         }
     }
 
-    private static void do_fizzbuzz(int i) {
+    static void do_fizzbuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;  // notice in java need to specify type
         boolean divisibleBy5 = i % 5 == 0;
